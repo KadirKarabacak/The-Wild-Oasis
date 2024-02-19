@@ -3,5 +3,5 @@
 
 ## To use this application :
 
-* User mail : `kadir@example.com`,
+* User mail : `kadir@example.com`
 * Password : `admin`
