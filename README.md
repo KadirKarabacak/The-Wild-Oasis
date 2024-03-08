@@ -16,6 +16,9 @@
 * LocalStorage
 
 ## `PROJEMDE BULUNAN ÖZELLİKLER`
+
+* **Dashboard** => 
+
 * **Darkmode & Lightmode** => ContextApi, LocalStorage, custom hook yapısı ve styled-components kullanarak kullanıcının mevcut cihazındaki temayı bulup kullanan aynı zamanda da manuel olarak değiştirilebilen bir DarkMode özelliği.
   
 * **Authentication & Authorization** => Login ve Logout durumları için **Supabase**'in sağladığı fonksiyonlar olan signInWithPassword ve signOut kullanarak kullanıcının uygulamaya erişimine izin verdim. Authenticated olmayan kullanıcılar için bir ProtectedRoute oluşturarak uygulama sayfamı login olmamış kullanıcıların erişimine engelledim.
