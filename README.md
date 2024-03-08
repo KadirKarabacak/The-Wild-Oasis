@@ -28,9 +28,11 @@
 
 * **Cabins** => Supabase üzerinden tüm cabinlerimi alıp tamamını tablomda listeledim. Yeni bir cabin oluşturmak için bir createCabin form'u oluşturdum ve kullanıcıya tüm cabin bilgileriyle beraber cabinin bir resmini de girebileceği alanlar tanımladım. Oluşturulmuş yeni cabinin tabloda eklemeden hemen sonra yer alabilmesi için react-query'den yardım aldım. Olası bir ihtimalde resmin database'e yüklenememesi halinde yeni oluşturulan cabinin silinip kullanıcıya gerekli hata mesajlarının gösterilmesini ele aldım.
 
-* **Settings** => 
+* **Settings** => Settings kısmında kullanıcıya halihazırda sunduğu servislerin ücretlerini, min-max gecelik kiralamalarını, kahvaltı ücretleri gibi verilerinin değerlerini güncelleyebileceği bir alan oluşturdum.
 
-## To use this application :
+* Tüm arayüz güncellemesi özelliklerimde React-query'den faydalanıp database ile iletişim halinde olduğu süre boyunca kullanıcıya bir spinner, disabled button ve input alanları gibi geri dönüşler sağladım. Aynı zamanda da react-query'nin mükemmel bir özelliği olan verinin değişmesi durumunda otomatik arayüz re-render'ı yapmasından faydalanarak kullanıcıların bulundukları ekranı manuel olarak güncellemesine gerek kalmadan arayüzün güncellenmesini sağladım.
+
+## Uygulamayı kullanabilmek için ihtiyacınız olan giriş bilgileri :
 
 * User mail : `kadir@example.com`
 * Password : `admin`
