@@ -1,9 +1,6 @@
 // Router
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
-// React-Query & Devtools
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 // Pages
 import Dashboard from "./pages/Dashboard";
@@ -38,8 +35,6 @@ function App() {
         <DarkModeProvider>
             {/* Providing our queryClient */}
             <QueryClientProvider client={queryClient}>
-                {/* React-Query-Devtools*/}
-                <ReactQueryDevtools initialIsOpen={false} />
                 {/* Global Styles */}
                 <GlobalStyles />
                 <BrowserRouter>
