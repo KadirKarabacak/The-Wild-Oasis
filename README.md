@@ -40,4 +40,4 @@
 * User mail : `kadir@example.com`
 * Password : `admin`
 
-Alternatif deploy edilmiş versiyonlar : https://the-wild-oasis-k.vercel.app/login
+Alternatif deploy edilmiş versiyonlar : https://the-wild-oasis-k.vercel.app
